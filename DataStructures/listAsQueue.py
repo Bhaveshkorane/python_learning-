@@ -25,6 +25,6 @@ deque()
 deque()
 deque()
 deque()
-deque()
+deque()#the list will be and the dequeue will not be performend 
 deque()
 
