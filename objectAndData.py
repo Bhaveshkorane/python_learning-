@@ -20,7 +20,21 @@ b={'name':'Bhavesh','age':22}
 print(b)
 print(type(b))
 
-#frozenset
+#<clas 'frozenset:>#can not be modified
 c=frozenset({'a','b','c','d','d'})
 print(c)
 print(type(c))
+
+
+
+#making data of specific type 
+num=int(5)
+print(type(num))
+flt=float(5.43)
+print(type(flt))
+bl=bool(5)
+print(bl)
+blf=bool(0)
+print(blf)
+
+
