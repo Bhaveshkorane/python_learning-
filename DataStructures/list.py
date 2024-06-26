@@ -55,3 +55,11 @@ print('The new list is as follows:',newStudentsList)
 #clear the list
 students.clear()
 print('after clearing the list :',students)
+
+
+#list comprehension
+bhavesh=[x**2 for x in range(10)]
+print(bhavesh)
+
+
+print([(x,y) for x in [1,2,3,4] for y in [4,5,6] if(x!=y)])
